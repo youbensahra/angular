@@ -4,7 +4,7 @@ import { ApiModule } from './Rest';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { BurgerComponent } from './burger/burger.component';
+import { BurgerComponent } from './Burger/burger.component';
 
 @NgModule({
   declarations: [
