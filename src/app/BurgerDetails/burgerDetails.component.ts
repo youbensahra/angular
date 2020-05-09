@@ -5,7 +5,7 @@ import { Location } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-burger-detail',
+  selector: 'app-burger',
   templateUrl: './burgerDetails.component.html',
   styleUrls: ['./burgerDetails.component.css']
 })
