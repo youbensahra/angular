@@ -4,13 +4,14 @@ import { BurgersService } from './../Rest/api/burgers.service';
 
 
 @Component({
-  selector: 'app-burger',
-  templateUrl: './burger.component.html',
-  styleUrls: ['./burger.component.css']
+  selector: 'app-burger-list',
+  templateUrl: './burgerListe.component.html',
+  styleUrls: ['./burgerListe.component.css']
 })
-export class BurgerComponent implements OnInit {
+export class BurgerListeComponent implements OnInit {
   
-  burger: Burger[]
+  burger: Burger[];
+  
   ngOnInit() {
     this.getBurgers();    
   } 
